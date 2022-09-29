@@ -1,0 +1,23 @@
+*{
+    background-color: black;
+    color: white;
+}
+div::first-letter{
+    color: red;
+}
+h1, ol{
+    color: darkorange;
+}
+li{
+    list-style: none;
+}
+.upper.lower{
+    color: gold;
+}
+#test-id{
+    margin: 0;
+    padding: 0;
+}
+.upper > div{
+    color: red;
+}
