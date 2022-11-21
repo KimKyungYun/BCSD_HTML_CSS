@@ -1,0 +1,24 @@
+#input_box, #active_box, #done_box{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#input_do{
+    width: 60%;
+}
+#list_box{
+    display: flex;
+}
+#do_list, #done_list{
+    display: flex;
+}
+.btn{
+    border: 0;
+    background-color: transparent;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}

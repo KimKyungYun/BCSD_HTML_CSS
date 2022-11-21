@@ -1,0 +1,31 @@
+#aaa{
+    width:600px;
+    height:200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#btn{
+    background-color: transparent;
+    border: 0px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+#main_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.inner{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
